@@ -1,0 +1,7 @@
+<h1>Accounts</h1>
+
+<div id="accounts">
+  <% @accounts.each do |account| %>
+    <p><%= account.name %> <%= currency(account.balance) %></p>
+  <% end %>
+</div>
