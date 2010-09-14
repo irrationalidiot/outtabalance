@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Account do
   before(:each) do
     @valid_attributes = {
-      :name => "value for name",
+      :name => "Checking",
       :balance => 10000
     }
   end
